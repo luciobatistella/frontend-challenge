@@ -1,0 +1,17 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+#app {
+  @apply min-h-screen;
+}
+
+@layer components {
+
+  /* Minimal link style: underline always; blue only on hover */
+  .order-link {
+    @apply underline underline-offset-2 decoration-1 transition-colors;
+  }
+}

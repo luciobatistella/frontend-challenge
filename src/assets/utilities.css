@@ -1,0 +1,5 @@
+/* utility class without @apply to avoid tooling/lint false-positives */
+.flex-center {
+    display: flex;
+    align-items: center;
+}
