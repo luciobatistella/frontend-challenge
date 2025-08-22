@@ -18,7 +18,7 @@ O projeto foi desenvolvido como teste prático de front-end, com foco em **respo
 
 ## 🛠️ Rodando o Projeto  
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/luciobatistella/frontend-challenge
 cd mercadoeletronico
 npm install
 npm run dev
